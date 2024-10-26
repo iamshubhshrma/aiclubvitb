@@ -1,0 +1,6 @@
+.app-bg {
+    background-image: URL('../public/bg.jpg');
+    color: rgb(120, 10, 183);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
