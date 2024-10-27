@@ -3,6 +3,7 @@ import './App.css';
 import ResponsiveAppBar from './appbar.jsx';
 import Firstcomp from './firstcomp.jsx';
 import Secondcomp from './secondcomp.jsx';
+import Events from './events.jsx';
 import Footer from './footer.jsx';
 import { AppBar } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
@@ -15,8 +16,11 @@ function App() {
       <Box component="section" className='app-bg' sx={{}}>
         <ResponsiveAppBar />
         <Firstcomp />
-        <Secondcomp />
+        <Events />
+        {/* <Secondcomp /> */}
         <Footer />
+
+
       </Box>
 
 

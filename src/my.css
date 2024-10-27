@@ -4,3 +4,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.ev-bg {
+    background-image: URL('../public/ev-bg.jpg');
+    color: rgb(120, 10, 183);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstcomp {
+    background-image: URL('../public/bgf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

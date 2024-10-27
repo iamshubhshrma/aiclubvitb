@@ -25,7 +25,7 @@ export default function TitlebarBelowMasonryImageList() {
             </Typography>
             <ImageList variant="masonry" cols={3} gap={20}>
                 {itemData.map((item) => (
-                    <ImageListItem key={item.img}>
+                    <ImageListItem key={item.img} sx={{ maxWidth: '250px' }}>
                         <img
                             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=248&fit=crop&auto=format`}

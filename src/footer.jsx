@@ -20,28 +20,12 @@ export default function BoxBasic() {
                 alignItems: "center",
             }}
         >
-            {/* Main Links */}
             <Box sx={{ display: "flex", gap: "2rem", marginBottom: "1rem" }}>
                 <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>Home</Typography>
                 <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}> About Us</Typography>
                 <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>Events</Typography>
                 <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>Contact</Typography>
-
-
-
-
-
-
-
-
-
-
-
-
-
             </Box>
-
-            {/* Social Media Icons */}
             <Box sx={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
                 <IconButton
                     component="a"
