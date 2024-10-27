@@ -11,7 +11,7 @@ export default function BoxBasic() {
         <Box className='firstcomp' component="section" sx={{ p: 5, height: "80vh", width: '90%', m: 5, borderRadius: '20px' }}>
             <Stack direction="row" spacing={8} sx={{ alignContent: 'flex-start' }}>
                 <Box component="section" sx={{ p: 5, maxWidth: '50%' }}>
-                    <Typography variant='h2'
+                    <Typography variant='h3'
                         sx={{
                             textAlign: 'center', mb: 3,
                             color: '#e6e6fa', // Light purple text color
@@ -32,7 +32,7 @@ export default function BoxBasic() {
                             },
                         }}
                     >Engineering Dreams with Artificial Intelligence</Typography>
-                    <Typography variant='h4' sx={{ textAlign: 'center', color: 'white' }}>
+                    <Typography variant='h5' sx={{ textAlign: 'center', color: 'white' }}>
                         Welcome to the VIT Bhopal University’s AI Club, where technology enthusiasts and innovators connect to explore the endless possibilities of artificial intelligence. Join us to collaborate, learn, and push the boundaries of what AI can achieve.
                     </Typography>
                 </Box>
