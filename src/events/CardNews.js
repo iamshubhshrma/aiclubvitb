@@ -41,12 +41,12 @@ export const NewsCardDemo = React.memo(function NewsCard({ src, heading, text })
         <Typography variant="h4"
           sx={{
             color: '#e6e6fa',
-            textShadow: `
-                          0 0 4px #e6e6fa,
-                          0 0 8px #e6e6fa,
-                          0 0 12px #d8bfd8,
-                          0 0 16px #d8bfd8
-                        `,
+            // textShadow: `
+            //               0 0 4px #e6e6fa,
+            //               0 0 8px #e6e6fa,
+            //               0 0 12px #d8bfd8,
+            //               0 0 16px #d8bfd8
+            //             `,
             transition: 'text-shadow 0.3s ease-in-out',
             '&:hover': {
               textShadow: `
@@ -62,12 +62,12 @@ export const NewsCardDemo = React.memo(function NewsCard({ src, heading, text })
           sx={{
             textAlign: "justify",
             color: '#e6e6fa',
-            textShadow: `
-                          0 0 4px #e6e6fa,
-                          0 0 6px #e6e6fa,
-                          0 0 8px #d8bfd8,
-                          0 0 10px #d8bfd8
-                        `,
+            // textShadow: `
+            //               0 0 4px #e6e6fa,
+            //               0 0 6px #e6e6fa,
+            //               0 0 8px #d8bfd8,
+            //               0 0 10px #d8bfd8
+            //             `,
             transition: 'text-shadow 0.3s ease-in-out',
             '&:hover': {
               textShadow: `
