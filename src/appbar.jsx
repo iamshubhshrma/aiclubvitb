@@ -61,8 +61,27 @@ function ResponsiveAppBar() {
                         />
 
                     </Button>
+                    <Typography
+                        variant="h4"
+                        noWrap
+                        component="a"
+                        href="#app-bar-with-responsive-menu"
+                        sx={{
+                            mr: 2,
+                            display: { xs: 'flex', md: 'none' },
+                            flexGrow: 1,
+                            fontFamily: 'monospace',
+                            fontWeight: 'bold',
+                            fontSize: 50,
+                            letterSpacing: '.3rem',
+                            color: 'inherit',
+                            textDecoration: 'none',
+                        }}
+                    >
+                        AI Club
+                    </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'end' }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -101,7 +120,7 @@ function ResponsiveAppBar() {
                             </MenuItem>
 
                             <MenuItem key='startproject' onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">Join us</Typography>
+                                <Typography textAlign="center">JOIN US</Typography>
                             </MenuItem>
 
                             <MenuItem key='CONTACTUS' onClick={handleCloseNavMenu}>
@@ -110,26 +129,7 @@ function ResponsiveAppBar() {
 
                         </Menu>
                     </Box>
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 'bold',
-                            fontSize: 100,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
+
                     <Box sx={{ flexGrow: 1, justifyContent: 'right', py: 1, mr: 3, display: { xs: 'none', md: 'flex' } }}>
 
 

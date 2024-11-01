@@ -67,8 +67,9 @@ function App() {
             <Box component="section" sx={{ p: 5, height: "80vh", width: '90%', m: 5, borderRadius: '20px' }}>
                 <Stack direction="row" spacing={8} sx={{ alignContent: 'flex-start' }}>
                     <Box component="section" sx={{ p: 5, maxWidth: '50%' }}>
-                        <Typography variant='h3'
+                        <Typography
                             sx={{
+                                typography: { xs: "h4", lg: "h3" },
                                 textAlign: 'center', mb: 3,
                                 color: '#e6e6fa', // Light purple text color
                                 textShadow: `
@@ -88,11 +89,14 @@ function App() {
                                 },
                             }}
                         >Engineering Dreams with Artificial Intelligence</Typography>
-                        <Typography variant='h5' sx={{ textAlign: 'center', color: 'white' }}>
+                        <Typography
+                            // variant='h5'
+                            sx={{ textAlign: 'center', color: 'white', typography: { xs: "h5", lg: "h4" }, }}>
                             Welcome to the VIT Bhopal University’s AI Club, where technology enthusiasts and innovators connect to explore the endless possibilities of artificial intelligence. Join us to collaborate, learn, and push the boundaries of what AI can achieve.
                         </Typography>
                     </Box>
-                    <Canvas>
+
+                    <Canvas sx={{ display: { xs: 'none', lg: 'flex' } }}>
                         <ambientLight intensity={2.5} />
                         <pointLight position={[10, 10, 10]} />
                         <Suspense fallback={<div>Loading model...</div>}>
