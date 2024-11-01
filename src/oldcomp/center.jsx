@@ -20,7 +20,7 @@ export default function EnlargedCenterCarousel() {
         infinite: true,
         centerPadding: '40px',
         slidesToScroll: 1,
-        autoplay: true, // Enable autoplay
+        autoplay: false, // Enable autoplay
         autoplaySpeed: 2500, // Change slides every 3000ms (3 seconds)
         pauseOnHover: true, // Pause on hover
         slidesToShow: 3,

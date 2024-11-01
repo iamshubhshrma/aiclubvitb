@@ -6,6 +6,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Box, Typography, IconButton } from "@mui/material";
+import Button from '@mui/material/Button';
 
 export default function BoxBasic() {
     return (
@@ -21,10 +22,43 @@ export default function BoxBasic() {
             }}
         >
             <Box sx={{ display: "flex", gap: "2rem", marginBottom: "1rem" }}>
-                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>Home</Typography>
-                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}> About Us</Typography>
-                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>Events</Typography>
-                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>Contact</Typography>
+                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>
+                    <Button
+                        key='home'
+                        // onClick={}
+                        sx={{ color: 'white', display: 'block' }}
+                    >
+                        Home
+                    </Button>
+                </Typography>
+                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>
+                    <Button
+                        key='aboutus'
+                        // onClick={}
+                        sx={{ color: 'white', display: 'block' }}
+                    >
+                        About Us
+                    </Button>
+
+                </Typography>
+                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>
+                    <Button
+                        key='Events'
+                        // onClick={}
+                        sx={{ color: 'white', display: 'block' }}
+                    >
+                        Events
+                    </Button>
+                </Typography>
+                <Typography sx={{ textAlign: 'center', fontWeight: 1000 }}>
+                    <Button
+                        key='contact'
+                        // onClick={}
+                        sx={{ color: 'white', display: 'block' }}
+                    >
+                        Contact
+                    </Button>
+                </Typography>
             </Box>
             <Box sx={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
                 <IconButton
